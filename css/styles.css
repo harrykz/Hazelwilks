@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Header area*/
+.header{
+    background-image: url('../img/headerbackgroundfull.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.headeritems li a:hover{
+    color: #b8c44a;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: #18201f !important;
+}
+
+.active{
+    color: #b8c44a !important;
+}
+
+/*Frame Area*/
+.framebackground{
+    background-image: url('../img/frame.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    padding: 30px 30px 30px 30px;
+}
+.framephoto{
+    width: 100%;
+}
+.welcometext{
+    color: #748180;
+    font-size: 22px;
+    margin-left: -100px;
+}
+
+
+/*Categories section*/
+.aboutcontainerone{
+    background-color: #b8c44a;
+}
+
+.thecard{
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.aboutcontainertwo{
+    height: 800px;
+    background-image: url('../img/aboutbackground.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.categoryheading{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 85px;
+}
+
+.categorytext{
+    font-size: 26px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+    margin-bottom:65px;
+}
+
+
+.cardheading{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cardtext{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #748180;
+}
+
+.shopnow{
+    font-size: 18px;
+    color: #d1d995;
+    text-decoration:none;
+}
+
+.shopnow:hover{
+    color: #d1d995;
+    text-decoration:none;
+}
+
+.catcard{
+    width:100%;
+    padding: 0px 0px 0px 0px !important
+}
+
+/*About section*/
+.rowtwo{
+    margin-top: 50px;
+    margin-right: -50px;
+}
+
+.aboutcol1{
+    margin-top: 50px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: 100%;
+}
+
+.aboutheading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutheadingpara{
+    font-size: 18px;
+    color: #748180;
+    margin-top: 40px;
+    margin-bottom: 95px;
+}
+
+#readmore{
+    padding: 20px 45px 20px 45px;
+    background-color: #b8c44a;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#viewgallery{
+    padding: 20px 45px 20px 45px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+/*Footer Latest*/
+.footersection{
+    background-image: url('../img/footerbackground.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.latestnews{
+    background-color: #000;
+}
+
+.latestnewscontent{
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 160px;
+}
+
+.latestnewspara{
+    margin-top: 50px;
+}
+
+/*Below Latest news cards area*/
+.my-fluid{
+    padding: 10px 0px 10px 10px;
+    max-width: 100%;
+    height: 100%;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+.dates{
+    color: #748180;
+}
+
+.loremtext{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #748180;
+}
+
+.artcard{
+    max-width: 540px; 
+    padding: 0px 0px 0px 0px !important;
+}
+
+.viewfull{
+    font-size: 14px;
+    color: #d1d995;
+    text-decoration:none;
+}
+
+.viewfull:hover{
+    text-decoration: none;
+    color: #d1d995;
+}
+
+.cardsrow{
+    margin-top: -100px;
+}
+
+.card{
+    border: 0px !important;
+}
+
+/*Pagination*/
+.pages{
+    list-style-type: none;
+    background-color: #fff;
+    display: block;
+}
+
+.pages li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    color: #aab2b2;
+}
+
+.pages li .active{
+    color: #d1d995;
+}
+
+.pages li:hover{
+    color: #d1d995;
+}
+
+/*Below Cards Area*/
+.footerareathree{
+    padding-top: 90px;
+}
+
+.footerheadings{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.footerpara{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #748180;
+}
+
+.socio{
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.socio li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.socio li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.icons{
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.icons li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons li{
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.thelinks{
+    color: #748180;
+}
+
+.fb{
+    border-radius: 50%;
+    padding: 5px 14px 5px 14px;
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.tw{
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+    background-color: #00acee;
+    color: #fff;
+}
+
+.gp{
+    border-radius: 50%;
+    padding: 5px 8px 5px 8px;
+    background-color: #DD4B39;
+    color: #fff;
+}
+
+.footerareafour{
+    margin-top: 60px;
+}
+
+/*320px and up*/
+@media (min-width: 320px){
+    /*Header list area*/
+    .header{
+        padding-bottom: 30px;
+    }
+
+    .navbar-brand img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .nav-link{
+        font-size: 14px;
+    }
+
+    .headerlist{
+        margin-top: 0px;
+    }
+
+    /*Frame Area*/
+    .frameboard{
+        width:100%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .ontopofframe{
+        width:80%;
+        position: absolute;
+        top: 17px;
+        left: 32px;
+    }
+
+    /*Welcome Hazel Area Text*/
+    .text{
+        margin-top: 20px;
+    }
+    .welcomehazel{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+
+    .hazelwilks{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+    }
+
+    .hazelparagraphtext{
+        color: #748180;
+        font-size: 14px;
+    }
+
+    /*Category Section*/
+    .aboutcontainerone{
+        height: 150px;
+    }
+
+    .categoryrow{
+        margin-bottom: 10px;
+    }
+
+    .categoryheading{
+        font-size: 30px;
+        color: #fff;
+        margin-top: 20px;
+    }
+    
+    .categorytext{
+        font-size: 20px;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom:10px;
+    }
+
+    /*About Section*/
+    .categories{
+        height: 425vh;
+    }
+    .rowtwo{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    
+    .aboutcol1{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .abouth1{
+        font-size: 20px;
+    }
+    .aboutheading{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .aboutheadingpara{
+        font-size: 14px;
+        color: #748180;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+    
+    #readmore{
+        padding: 15px 30px 15px 30px;
+        background-color: #b8c44a;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    
+    #viewgallery{
+        padding: 15px 30px 15px 30px;
+        background-color: #000000;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .sideimagewrapper{
+        width:100%;
+        border: 5px solid black;
+        padding: 15px 0px 15px 15px;
+        height: 50vh;
+    }
+
+    /*Latest News section*/
+    .theh1{
+        font-size: 30px;
+    }
+    
+    .latestnewscontent{
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+    .latestnewspara{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    /*Cards Section*/
+    .card-title{
+        font-size: 18px;
+    }
+
+    .date{
+        font-size: 14px;
+    }
+
+    /*Footer Area*/
+    .footerareathree{
+        padding-top: 20px;
+    }
+
+    .footerpara{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .purchasenow{
+        margin-bottom: 40px;
+    }
+
+    .footerareafour{
+        margin-top: 0px;
+    }
+}
+
+/*576px and up*/
+@media (min-width: 576px){
+    /*Header list area*/
+    .header{
+        padding-bottom: 30px;
+    }
+
+    .headerlist{
+        margin-top: 0px;
+    }
+    
+    /*Frame Area*/
+    .ontopofframe{
+        width: 83%;
+        position: absolute;
+        top: 30px;
+        left: 46px;
+    }
+
+    /*Category Cards Section*/
+    .aboutcontainerone{
+        height: 240px;
+    }
+
+    .categories{
+        height: 210vh;
+    }
+    .categoryrow{
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+
+    .thisiscardtext{
+        font-size: 14px;
+    }
+
+    .shopnow{
+        font-size: 14px;
+    }
+
+    .littleimgs{
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+    }
+
+    /*About Section*/
+    .abouth1{
+        font-size: 30px;
+    }
+    .aboutheading{
+        font-size: 30px;
+        font-weight: 700;
+    }
+        
+    .aboutheadingpara{
+        font-size: 16px;
+        color: #748180;
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+
+    #readmore{
+        font-size: 14px;
+    }
+
+    #viewmore{
+        font-size: 14px;
+    }
+
+    /*Latest Section*/
+    .theh1{
+        font-size: 34px;
+    }
+    .latestnewspara{
+        font-size: 16px;
+    }
+}
+
+/*768px and up*/
+@media (min-width: 768px){
+    /*Header list area*/
+    .header{
+        padding-bottom: 30px;
+    }
+
+    .headerlist{
+        margin-top: 0px;
+    }
+
+    /*Frame Area*/
+    .ontopofframe{
+        width: 81%;
+        position: absolute;
+        top: 24px;
+        left: 42px;
+    }
+
+    /*Category Section*/
+    .aboutcontainerone{
+        height: 300px;
+    }
+
+    /*Category Cards*/
+    .categories{
+        height: 100%;
+    }
+
+    .categoryrow{
+        margin-top: -170px;
+    }
+
+    .thisiscardtext{
+        font-size: 15px;
+    }
+
+    .shopnow{
+        font-size: 18px;
+    }
+
+    .littleimgs{
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+}
+
+/*992px and up*/
+@media (min-width: 992px){
+    /*Header list area*/
+    .header{
+        padding-bottom: 30px;
+    }
+    .navbar-brand img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-link{
+        font-size: 18px;
+    }
+
+    .headerlist{
+        margin-top: -80px;
+    }
+
+    /*Header Frame Area*/
+    .ontopofframe{
+        width: 83%;
+        position: absolute;
+        top: 32px;
+        left: 48px;
+    }
+
+    /*Category Section*/
+    .aboutcontainerone{
+        height: 360px;
+    }
+
+    /*Category Cards*/
+    .categories{
+        height: 100%;
+    }
+
+    .categoryrow{
+        margin-top: -230px;
+    }
+
+    .thisiscardtext{
+        font-size: 15px;
+    }
+
+    .shopnow{
+        font-size: 18px;
+        margin-right: 35px;
+    }
+
+    .littleimgs{
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    /*Footer Section*/
+    .purchasenow{
+        padding: 0px 130px 0px 130px;
+    }
+    
+    .footerpara{
+        font-size: 20px;
+    }
+
+    .socio li{
+        font-size: 18px;
+    }
+
+    .copyrighttext{
+        font-size: 18px;
+    }
+    
+}
+
+/*1200px and up*/
+@media (min-width: 1200px){
+    
+    /*Header list area*/
+    .header{
+        padding-bottom: 30px;
+    }
+    .headerlist{
+        margin-top: -80px;
+    }
+    /*Header Frame Area*/
+    .frame{
+        margin-top: 80px;
+    }
+    .ontopofframe{
+        width: 84%;
+        position: absolute;
+        top: 118px;
+        left: 55px;
+    }
+    
+    /*Welcome Hazel Area Text*/
+    .text{
+        margin-top: 65px;
+    }
+    .welcomehazel{
+        font-family: 'Dancing Script', cursive;
+        font-size: 62px;
+    }
+
+    .hazelwilks{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+    }
+
+    .hazelparagraphmargin{
+        margin-left: -130px;
+    }
+
+    .hazelparagraphtext{
+        color: #748180;
+        font-size: 22px;
+    }
+
+    /*Category Section*/
+    .aboutcontainerone{
+        height: 500px;
+    }
+
+    .categoryheading{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .categorytext{
+        font-size: 26px;
+    }
+
+    /*Category Cards*/
+    .categories{
+        height: 100%;
+    }
+
+    .categoryrow{
+        margin-top: -280px;
+    }
+
+    .shopnow{
+        font-size: 20px;
+        margin-right: 80px;
+    }
+
+    /*About Section*/
+    .aboutcol1{
+        margin-top: 100px;
+    }
+    .abouth1{
+        font-size: 40px;
+    }
+    .aboutheading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .aboutheadingpara{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    #readmore{
+        font-size: 18px;
+    }
+
+    #viewgallery{
+        font-size: 18px;
+    }
+
+    /*Latest News Area*/
+    .theh1{
+        font-size: 40px;
+    }
+    
+    .latestnewscontent{
+        padding-top: 65px;
+        padding-bottom: 150px;
+    }
+
+    .latestnewspara{
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
